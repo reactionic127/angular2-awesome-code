@@ -1,0 +1,15 @@
+"use strict";
+var CoordiateModel = (function () {
+    function CoordiateModel() {
+    }
+    return CoordiateModel;
+}());
+exports.CoordiateModel = CoordiateModel;
+var CanvasStyleModel = (function () {
+    function CanvasStyleModel() {
+    }
+    return CanvasStyleModel;
+}());
+exports.CanvasStyleModel = CanvasStyleModel;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9jb3JlL21vZGVsLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQTtJQUFBO0lBR0EsQ0FBQztJQUFELHFCQUFDO0FBQUQsQ0FIQSxBQUdDLElBQUE7QUFIWSxzQkFBYyxpQkFHMUIsQ0FBQTtBQUVEO0lBQUE7SUFTQSxDQUFDO0lBQUQsdUJBQUM7QUFBRCxDQVRBLEFBU0MsSUFBQTtBQVRZLHdCQUFnQixtQkFTNUIsQ0FBQSIsImZpbGUiOiJhcHAvY29yZS9tb2RlbC5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBDb29yZGlhdGVNb2RlbCB7XG5cdHg6IG51bWJlcjtcblx0eTogbnVtYmVyO1xufVxuXG5leHBvcnQgY2xhc3MgQ2FudmFzU3R5bGVNb2RlbCB7XG5cdGJnQ29sb3I6IHN0cmluZztcblx0YmdPcGFjaXR5OiBudW1iZXI7XG5cdGJvcmRlckNvbG9yOiBzdHJpbmc7XG5cdGJvcmRlcldpZHRoOiBudW1iZXI7XG5cdGJnT3ZlckNvbG9yOiBzdHJpbmc7XG5cdGJnT3Zlck9wYWNpdHk6IG51bWJlcjtcblx0Ym9yZGVyT3ZlckNvbG9yOiBzdHJpbmc7XG5cdGJvcmRlck92ZXJXaWR0aDogbnVtYmVyO1xufVxuIl19

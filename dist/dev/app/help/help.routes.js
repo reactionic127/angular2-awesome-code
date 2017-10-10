@@ -1,0 +1,10 @@
+"use strict";
+var index_1 = require('./index');
+exports.HelpRoutes = [
+    {
+        path: 'help',
+        component: index_1.HelpComponent
+    }
+];
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9oZWxwL2hlbHAucm91dGVzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQSxzQkFBOEIsU0FBUyxDQUFDLENBQUE7QUFFM0Isa0JBQVUsR0FBWTtJQUNqQztRQUNFLElBQUksRUFBRSxNQUFNO1FBQ1osU0FBUyxFQUFFLHFCQUFhO0tBQ3pCO0NBQ0YsQ0FBQyIsImZpbGUiOiJhcHAvaGVscC9oZWxwLnJvdXRlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFJvdXRlIH0gZnJvbSAnQGFuZ3VsYXIvcm91dGVyJztcbmltcG9ydCB7IEhlbHBDb21wb25lbnQgfSBmcm9tICcuL2luZGV4JztcblxuZXhwb3J0IGNvbnN0IEhlbHBSb3V0ZXM6IFJvdXRlW10gPSBbXG4gIHtcbiAgICBwYXRoOiAnaGVscCcsXG4gICAgY29tcG9uZW50OiBIZWxwQ29tcG9uZW50XG4gIH1cbl07XG4iXX0=

@@ -1,0 +1,10 @@
+"use strict";
+var index_1 = require('./index');
+exports.VehicleModelRoutes = [
+    {
+        path: 'vehicle_model/ps/:profile_slug/:zipcode',
+        component: index_1.VehicleModelComponent
+    }
+];
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC92ZWhpY2xlX21vZGVsL3ZlaGljbGVfbW9kZWwucm91dGVzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQSxzQkFBc0MsU0FBUyxDQUFDLENBQUE7QUFFbkMsMEJBQWtCLEdBQVk7SUFDekM7UUFDRSxJQUFJLEVBQUUseUNBQXlDO1FBQy9DLFNBQVMsRUFBRSw2QkFBcUI7S0FDakM7Q0FDRixDQUFDIiwiZmlsZSI6ImFwcC92ZWhpY2xlX21vZGVsL3ZlaGljbGVfbW9kZWwucm91dGVzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUm91dGUgfSBmcm9tICdAYW5ndWxhci9yb3V0ZXInO1xuaW1wb3J0IHsgVmVoaWNsZU1vZGVsQ29tcG9uZW50IH0gZnJvbSAnLi9pbmRleCc7XG5cbmV4cG9ydCBjb25zdCBWZWhpY2xlTW9kZWxSb3V0ZXM6IFJvdXRlW10gPSBbXG4gIHtcbiAgICBwYXRoOiAndmVoaWNsZV9tb2RlbC9wcy86cHJvZmlsZV9zbHVnLzp6aXBjb2RlJyxcbiAgICBjb21wb25lbnQ6IFZlaGljbGVNb2RlbENvbXBvbmVudFxuICB9XG5dO1xuIl19

@@ -1,0 +1,10 @@
+"use strict";
+var index_1 = require('./index');
+exports.MoreRoutes = [
+    {
+        path: 'more/:slug',
+        component: index_1.MoreComponent
+    }
+];
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9tb3JlL21vcmUucm91dGVzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQSxzQkFBOEIsU0FBUyxDQUFDLENBQUE7QUFFM0Isa0JBQVUsR0FBWTtJQUNqQztRQUNFLElBQUksRUFBRSxZQUFZO1FBQ2xCLFNBQVMsRUFBRSxxQkFBYTtLQUN6QjtDQUNGLENBQUMiLCJmaWxlIjoiYXBwL21vcmUvbW9yZS5yb3V0ZXMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBSb3V0ZSB9IGZyb20gJ0Bhbmd1bGFyL3JvdXRlcic7XG5pbXBvcnQgeyBNb3JlQ29tcG9uZW50IH0gZnJvbSAnLi9pbmRleCc7XG5cbmV4cG9ydCBjb25zdCBNb3JlUm91dGVzOiBSb3V0ZVtdID0gW1xuICB7XG4gICAgcGF0aDogJ21vcmUvOnNsdWcnLFxuICAgIGNvbXBvbmVudDogTW9yZUNvbXBvbmVudFxuICB9XG5dO1xuIl19

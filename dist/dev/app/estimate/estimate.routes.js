@@ -1,0 +1,10 @@
+"use strict";
+var index_1 = require('./index');
+exports.EstimateRoutes = [
+    {
+        path: 'estimate/:id',
+        component: index_1.EstimateComponent
+    }
+];
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9lc3RpbWF0ZS9lc3RpbWF0ZS5yb3V0ZXMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLHNCQUFrQyxTQUFTLENBQUMsQ0FBQTtBQUUvQixzQkFBYyxHQUFZO0lBQ3JDO1FBQ0UsSUFBSSxFQUFFLGNBQWM7UUFDcEIsU0FBUyxFQUFFLHlCQUFpQjtLQUM3QjtDQUNGLENBQUMiLCJmaWxlIjoiYXBwL2VzdGltYXRlL2VzdGltYXRlLnJvdXRlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFJvdXRlIH0gZnJvbSAnQGFuZ3VsYXIvcm91dGVyJztcbmltcG9ydCB7IEVzdGltYXRlQ29tcG9uZW50IH0gZnJvbSAnLi9pbmRleCc7XG5cbmV4cG9ydCBjb25zdCBFc3RpbWF0ZVJvdXRlczogUm91dGVbXSA9IFtcbiAge1xuICAgIHBhdGg6ICdlc3RpbWF0ZS86aWQnLFxuICAgIGNvbXBvbmVudDogRXN0aW1hdGVDb21wb25lbnRcbiAgfVxuXTtcbiJdfQ==

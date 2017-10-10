@@ -1,0 +1,10 @@
+"use strict";
+var index_1 = require('./index');
+exports.PhotoRoutes = [
+    {
+        path: 'photo/:id',
+        component: index_1.PhotoComponent
+    }
+];
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9waG90by9waG90by5yb3V0ZXMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLHNCQUErQixTQUFTLENBQUMsQ0FBQTtBQUU1QixtQkFBVyxHQUFZO0lBQ2xDO1FBQ0UsSUFBSSxFQUFFLFdBQVc7UUFDakIsU0FBUyxFQUFFLHNCQUFjO0tBQzFCO0NBQ0YsQ0FBQyIsImZpbGUiOiJhcHAvcGhvdG8vcGhvdG8ucm91dGVzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUm91dGUgfSBmcm9tICdAYW5ndWxhci9yb3V0ZXInO1xuaW1wb3J0IHsgUGhvdG9Db21wb25lbnQgfSBmcm9tICcuL2luZGV4JztcblxuZXhwb3J0IGNvbnN0IFBob3RvUm91dGVzOiBSb3V0ZVtdID0gW1xuICB7XG4gICAgcGF0aDogJ3Bob3RvLzppZCcsXG4gICAgY29tcG9uZW50OiBQaG90b0NvbXBvbmVudFxuICB9XG5dO1xuIl19

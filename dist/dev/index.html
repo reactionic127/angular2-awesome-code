@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Virtual Evaluator</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="/fonts/videogular.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/css/main.css?1507037841805">
+  <link rel="stylesheet" href="/css/bootstrap-switch.css?1507037841805">
+  <link rel="stylesheet" href="/css/mobile-angular-ui-base.min.css?1507037841806">
+  <link rel="stylesheet" href="/css/mobile-angular-ui-desktop.min.css?1507037841806">
+  <link rel="stylesheet" href="/css/mobile-angular-ui-hover.min.css?1507037841806">
+  <!-- endinject -->
+</head>
+<body>
+
+  <sd-app>
+    <div class="app-content-loading">
+      <i class="fa fa-spinner fa-spin loading-spinner"></i>
+    </div>
+  </sd-app>
+
+  <script>
+  // Fixes undefined module function in SystemJS bundle
+  function module() {}
+  </script>
+
+  <!-- begin olark code -->
+  <script type="text/javascript" async>
+  ;(function(o,l,a,r,k,y){if(o.olark)return;
+  r="script";y=l.createElement(r);r=l.getElementsByTagName(r)[0];
+  y.async=1;y.src="//"+a;r.parentNode.insertBefore(y,r);
+  y=o.olark=function(){k.s.push(arguments);k.t.push(+new Date)};
+  y.extend=function(i,j){y("extend",i,j)};
+  y.identify=function(i){y("identify",k.i=i)};
+  y.configure=function(i,j){y("configure",i,j);k.c[i]=j};
+  k=y._={s:[],t:[+new Date],c:{},l:a};
+  })(window,document,"static.olark.com/jsclient/loader.js");
+  /* Add configuration calls bellow this comment */
+  olark.identify('6932-791-10-9647');</script>
+  <!-- end olark code -->
+
+  <!-- shims:js -->
+  <script src="/node_modules/core-js/client/shim.min.js?1507037841801"></script>
+  <script src="/node_modules/intl/dist/Intl.min.js?1507037841802"></script>
+  <script src="/node_modules/systemjs/dist/system.src.js?1507037841802"></script>
+  <!-- endinject -->
+  
+  
+  <script src="/app/system-config.js"></script>
+  
+
+  <!-- libs:js -->
+  <script src="/node_modules/zone.js/dist/zone.js?1507037841803"></script>
+  <script src="/node_modules/.tmp/Rx.min.js?1507037841804"></script>
+  <script src="/node_modules/jquery/dist/jquery.min.js?1507037841804"></script>
+  <script src="/node_modules/html2canvas/dist/html2canvas.min.js?1507037841804"></script>
+  <!-- endinject -->
+  <!-- inject:js -->
+  <!-- endinject -->
+  
+  <script>
+  System.import('app/main')
+    .catch(function (e) {
+      console.error(e.stack || e,
+        'Not expecting this error? Report it at https://github.com/mgechev/angular-seed/issues');
+    });
+  </script>
+  
+  
+</body>
+</html>
